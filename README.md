@@ -161,7 +161,7 @@ For the first image, the model is confident that this is a "TSpeed limit (20km/h
 | <.01				    | Turn Right Ahead 								|
 
 
-For the second image, the model is pretty sure that this is a "Beware of ice/snow" sign (probability of 0.64), but the image is a "Children Crossing". The top five soft max probabilities are below and correct one was #2 with a probabilty of .16
+For the second image, the model is pretty sure that this is a "Beware of ice/snow" sign (probability of 0.64), but the image is a "Children Crossing" which came in second at 0.16. After visually examing 10 samples of the training set for "Beware of ice/snow" I can definitely understand the difficulty the model might have with this sign as all 10 were essentially blurry black blobs in a red triangle which is pretty close to what a "Children Crossing" sign looks like. The top five soft max probabilities are below. 
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
